@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- --------------------------HEADER----------------------------- -->
+  <header class="header">
+    <div class="header-links">
+      <img src="./images/logo.svg" alt="logo" class="header-logo">
+      <ul class="header-nav">
+        <li class="header-nav-link" id="header-link1">Features<span class="header-span"><img src="./images/icon-arrow-down.svg" alt="" class="header-arrow1"></span></li>
+        <div class="header-acordeon1">
+          <div class="header-acordeon-links">
+            <img src="./images/icon-todo.svg" alt="img-acordeon" class="header-acordeon-img ">
+            <p class="header-acordeon-click">Todo List</p>
+          </div>
+
+          <div class="header-acordeon-links">
+            <img src="./images/icon-calendar.svg" alt="img-acordeon" class="header-acordeon-img">
+            <p class="header-acordeon-click">Calendar</p>
+          </div>
+
+          <div class="header-acordeon-links">
+            <img src="./images/icon-reminders.svg" alt="img-acordeon" class="header-acordeon-img">
+            <p class="header-acordeon-click">Reminders</p>
+          </div>
+
+          <div class="header-acordeon-links">
+            <img src="./images/icon-planning.svg" alt="img-acordeon" class="header-acordeon-img">
+            <p class="header-acordeon-click">Planning</p>
+          </div>
+
+        </div>
+        <li class="header-nav-link" id="header-link2">Company<span class="header-span"><img src="./images/icon-arrow-down.svg" alt="" class="header-arrow2"></span></li>
+        <div class="header-acordeon2">
+          <p class="header-acordeon-click2">History</p>
+          <p class="header-acordeon-click2">Our Team</p>
+          <p class="header-acordeon-click2">Blog</p>
+        </div>
+        <li class="header-nav-link">Careers</li>
+        <li class="header-nav-link">About</li>
+      </ul>
+    </div>
+
+    <div class="header-login">
+      <p class="header-login-link">Login</p>
+      <button class="header-login-register">Register</button>
+    </div>
+    <img src="./images/icon-menu.svg" alt="icon-hamburguer" class="header-hamburguer">
+  </header>
+
+<!-- --------------------------MAIN----------------------------- -->
+<main class="main">
+  <section class="title">
+  <h1 class="main-title">Make remote work</h1>
+  <p class="main-text">Get your team in sync, no matter your location. Streamline processes, 
+    create team rituals, and watch productivity soar.</p>
+  <button class="main-button">Learn more</button>
+
+  <div class="main-icons">
+    <img src="./images/client-databiz.svg" alt="logos" class="main-logos">
+    <img src="./images/client-audiophile.svg" alt="logos" class="main-logos">
+    <img src="./images/client-meet.svg" alt="logos" class="main-logos">
+    <img src="./images/client-maker.svg" alt="logos" class="main-logos">
+  </div>
+</section>
+
+<section class="image">
+  <img src="./images/image-hero-desktop.png" alt="imagen" class="image-principal">
+  <img src="./images/image-hero-mobile.png" alt="imagen" class="image-mobile">
+</section>
+
+
+
+</main>
+<!-- --------------------------MODAL MENU----------------------------- -->
+<header class="header-modal">
+  <div class="header-links-modal">
+    <img src="./images/icon-close-menu.svg" alt="logo" class="header-logo-modal">
+    <ul class="header-nav-modal">
+      <li class="header-nav-link-modal1">Features<span class="header-span"><img src="./images/icon-arrow-down.svg" alt="" class="header-arrow1-modal"></span></li>
+      <div class="header-acordeon1-modal">
+        <div class="header-acordeon-links-modal">
+          <img src="./images/icon-todo.svg" alt="img-acordeon" class="header-acordeon-img-modal ">
+          <p class="header-acordeon-click">Todo List</p>
+        </div>
+
+        <div class="header-acordeon-links-modal">
+          <img src="./images/icon-calendar.svg" alt="img-acordeon" class="header-acordeon-img-modal">
+          <p class="header-acordeon-click">Calendar</p>
+        </div>
+
+        <div class="header-acordeon-links-modal">
+          <img src="./images/icon-reminders.svg" alt="img-acordeon" class="header-acordeon-img-modal">
+          <p class="header-acordeon-click">Reminders</p>
+        </div>
+
+        <div class="header-acordeon-links-modal">
+          <img src="./images/icon-planning.svg" alt="img-acordeon" class="header-acordeon-img-modal">
+          <p class="header-acordeon-click">Planning</p>
+        </div>
+
+      </div>
+      <li class="header-nav-link-modal2">Company<span class="header-span"><img src="./images/icon-arrow-down.svg" alt="" class="header-arrow2-modal"></span></li>
+      <div class="header-acordeon2-modal">
+        <p class="header-acordeon-click2">History</p>
+        <p class="header-acordeon-click2">Our Team</p>
+        <p class="header-acordeon-click2">Blog</p>
+      </div>
+      <li class="header-nav-link-modal">Careers</li>
+      <li class="header-nav-link-modal">About</li>
+    </ul>
+
+    <div class="header-login-modal">
+      <p class="header-login-link-modal">Login</p>
+      <button class="header-login-register-modal">Register</button>
+    </div>
+  </div>
+  
+  
+  <script src="./main.js"></script>
+</body>
+</html>
